@@ -1,2 +1,2 @@
-public class SemiTruck {
+public class SemiTruck extends Vehicle {
 }
