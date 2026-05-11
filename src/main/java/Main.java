@@ -3,5 +3,7 @@ public class Main {
         Moped slowRide = new Moped();
         slowRide.setColor("Red");
         slowRide.setFuelCapacity(5);
+        slowRide.startEngine();
+        slowRide.stopEngine();
     }
 }
