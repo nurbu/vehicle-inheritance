@@ -7,6 +7,15 @@ public class Vehicle {
     private int cargoCapacity;
     private int fuelCapacity;
 
+    public Vehicle(String model, String color, int topSpeed, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        this.model = model;
+        this.color = color;
+        this.topSpeed = topSpeed;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+    }
+
     public void startEngine() {
         System.out.println("Starting engine ...");
     }
