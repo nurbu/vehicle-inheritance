@@ -12,6 +12,7 @@ public class Moped extends Vehicle {
 
     @Override
     public String toString() {
-        return "Model: " + getModel() + "Color: " + getColor() + ""
+        return "Model: " + getModel() + "Color: " + getColor() + "Top Speed: " + getTopSpeed() + "# of  Passengers: " + getNumberOfPassengers() +
+                ", Fuel Capacity: " + getFuelCapacity() + "Max Weight: " + maxWeight;
     }
 }
