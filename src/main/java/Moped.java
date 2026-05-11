@@ -10,4 +10,8 @@ public class Moped extends Vehicle {
         System.out.println("Ride ...");
     }
 
+    @Override
+    public String toString() {
+        return "Model: " + getModel() + "Color: " + getColor() + ""
+    }
 }
