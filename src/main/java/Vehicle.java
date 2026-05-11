@@ -1,9 +1,27 @@
 public class Vehicle {
 
+    private String model;
     private String color;
+    private int topSpeed;
     private int numberOfPassengers;
     private int cargoCapacity;
     private int fuelCapacity;
+
+    public void startEngine() {
+        System.out.println("Starting engine ...");
+    }
+
+    public void stopEngine() {
+        System.out.println("Stopping engine ...");
+    }
+
+    public void accelerate() {
+        System.out.println("Accelerating ...");
+    }
+
+    public void brake() {
+        System.out.println("Braking ...");
+    }
 
     public String getColor() {
         return color;
